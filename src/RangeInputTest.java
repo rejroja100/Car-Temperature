@@ -3,6 +3,8 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class RangeInputTest {
 
+    RangeInput passenger1, passenger2, driver1, driver2;
+
     @Test
     void temperature1() {
         RangeInput passenger1 = new RangeInput();
